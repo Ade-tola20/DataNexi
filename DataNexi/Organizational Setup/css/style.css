@@ -1,0 +1,193 @@
+body {
+  background-color: whitesmoke;
+}
+
+/* SETUP BOX */
+.setup-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  margin-left: 250px;
+  width: 850px;
+  height:700px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+/* NAV */
+.top {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+/* LOGO */
+.logo {
+  margin-top: 35px;
+  margin-left: 60px;
+  width: 153px;
+  height: 20px;
+}
+
+/* SETUP TEXT */
+.setup-text {
+  margin-top: 29px;
+  margin-left: 180px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+/* LINE */
+.horizontal-line {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 120px;
+}
+.colored-line {
+  width: 350px;
+}
+.white-line {
+  width: 500px;
+}
+
+/* FORM BOX */
+.form-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 135px;
+  box-sizing: border-box;
+  width: 579px;
+  height: 458px;
+  background: #ffffff;
+  border: 1px solid #cacfd1;
+}
+
+/* ORGANIZATION FORM */
+.organization-form {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* NAME DIV */
+.name-div,
+.sector {
+  margin-left: 30px;
+}
+.organization-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+.name-field {
+  margin-top: 15px;
+  line-height: 40px;
+  width: 225px;
+  border-radius: 5px;
+  border: 1px solid #cacfd1;
+}
+
+/* ROLE FIV */
+.role-div {
+  margin-left: 15px;
+}
+.role-field {
+  margin-top: 15px;
+  line-height: 40px;
+  width: 230px;
+  border-radius: 5px;
+  border: 1px solid #cacfd1;
+}
+.organization-role {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+/* INPUT PLACEHOLDER STYLE */
+input[type="text"]::placeholder {
+  padding-left: 5px;
+}
+
+/* SECTOR */
+.sector-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+.sector-field {
+  margin-top: 15px;
+  line-height: 40px;
+  width: 485px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #cacfd1;
+}
+
+/* COUNTRY SELECT */
+.country {
+  margin-left: 30px;
+}
+
+/* STATE SELECT */
+.state {
+  margin-left: 10px;
+}
+.country-text, .state-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+.country-select, .state-select {
+  margin-top: 15px;
+  line-height: 40px;
+  width: 240px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #cacfd1;
+}
+
+/* BUTTON */
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 18px;
+}
+.next-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 14px 11px 13px;
+  gap: 14.36px;
+  width: 501px;
+  height: 48.62px;
+  background: #5233ed;
+  border-radius: 6.62857px;
+  border: none;
+  cursor: pointer;
+}
