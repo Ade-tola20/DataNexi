@@ -9,7 +9,7 @@ body {
   margin-top: 45px;
   margin-left: 250px;
   width: 850px;
-  height:700px;
+  height: 700px;
   background: #ffffff;
   border: 2px solid #ffffff;
 }
@@ -148,7 +148,8 @@ input[type="text"]::placeholder {
 .state {
   margin-left: 10px;
 }
-.country-text, .state-text {
+.country-text,
+.state-text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -156,7 +157,8 @@ input[type="text"]::placeholder {
   line-height: 18px;
   color: #000000;
 }
-.country-select, .state-select {
+.country-select,
+.state-select {
   margin-top: 15px;
   line-height: 40px;
   width: 240px;
@@ -189,5 +191,146 @@ input[type="text"]::placeholder {
   background: #5233ed;
   border-radius: 6.62857px;
   border: none;
+  cursor: pointer;
+}
+/* ********************* */
+
+/* ADD TEAM MEMBERS */
+
+/* MEMBERS BOX */
+.members-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  margin-left: 250px;
+  width: 850px;
+  height: 850px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+/* HORIZONTAL LINE */
+.color-line {
+  width: 700px;
+}
+.grey-line {
+  width: 150px;
+}
+
+/* MEMBERS DETAILS BOX */
+/* FORM BOX */
+.members-details-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+  box-sizing: border-box;
+  width: 550px;
+  height: 600px;
+  background: #ffffff;
+  border: 1px solid #cacfd1;
+}
+
+/* MEMBERS FORM */
+.members-form {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* EMAIL-DIV */
+.email-div {
+  margin-left: 15px;
+}
+
+/* EMAIL */
+.members-email {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+.email-field {
+  margin-top: 15px;
+  line-height: 40px;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid #cacfd1;
+}
+
+/* MEMBERS ROLE */
+.members-role-field {
+  margin-top: 15px;
+  line-height: 40px;
+  width: 120px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #cacfd1;
+}
+
+/* SELECT OPTION */
+select {
+  color: #9e9e9e;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #958f8f;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* ADD ANOTHER */
+.add-another {
+  margin-left: 15px;
+  margin-bottom: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #5233ed;
+  text-decoration: none;
+}
+
+/* HORIZONTAL LINE */
+.straight-line {
+  margin-bottom: 20px;
+  width: 510px;
+  height: 1px;
+  background: #d9d9d9;
+}
+
+/* MARGIN BETWEEN EMAIL FORMS */
+.space {
+  margin-top: -10px;
+}
+
+/* BIN IMAGE */
+.bin-img {
+  margin-left: 25px;
+}
+
+/* INVITE BUTTON */
+.invite-btn {
+  margin-left: -50px;
+  width: 450px;
+  height: 48.62px;
+  background: #5233ed;
+  border-radius: 6.62857px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   cursor: pointer;
 }
