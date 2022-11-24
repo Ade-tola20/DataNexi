@@ -210,10 +210,10 @@ input[type="text"]::placeholder {
 }
 
 /* HORIZONTAL LINE */
-.color-line {
+.colored-horizontal-line {
   width: 700px;
 }
-.grey-line {
+.grey-horizontal-line {
   width: 150px;
 }
 
@@ -333,4 +333,83 @@ select {
   order: 0;
   flex-grow: 0;
   cursor: pointer;
+}
+/* ***************** */
+
+/* ALL DONE BOX */
+.all-done {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  margin-left: 250px;
+  width: 850px;
+  height: 650px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+/* HORIZONTAL LINE */
+.blue-horizontal-line {
+  width: 1000px;
+  height: 4px;
+}
+
+/* ACCOUNT BOX */
+.account-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  box-sizing: border-box;
+  width: 586px;
+  height: 537px;
+  background: #ffffff;
+  border: 1px solid #cacfd1;
+}
+
+/* DONE/CHECK DIV */
+.done-div {
+  margin-top: 55px;
+  margin-left: 250px;
+  margin-bottom: 30px;
+}
+
+/* LOREM IPSUM DIV */
+.lorem-div {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.lorem-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+/* GO TO DASHBOARD BTN */
+.go-to-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 5px;
+}
+.dashboard-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 14.3619px 11.0476px 13.2571px;
+  gap: 14.36px;
+  background: #5233ed;
+  border-radius: 6.62857px;
+  border: none;
+  width: 501px;
+  height: 48.62px;
 }
