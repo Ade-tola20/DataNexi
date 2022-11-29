@@ -413,3 +413,107 @@ select {
   width: 501px;
   height: 48.62px;
 }
+/* ****************** */
+
+.blury-img {
+  margin-top: -780px;
+  margin-left: -184px;
+}
+
+.grayish-img {
+  width: 855px;
+  height: 856px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+.blur {
+  display: flex;
+  flex-direction: column;
+  margin-top: -535px;
+  margin-left: 40px;
+  width: 420px;
+  height: 390px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #cacfd1;
+}
+
+
+.delete-div {
+  margin-top: 30px;
+  margin-left: 33px;
+}
+
+.delete-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.confirm-div {
+  margin-left: 33px;
+  margin-bottom: 50px;
+  margin-top: -20px;
+}
+
+.confirm-delete-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.confirm-btn {
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+}
+
+.delete-btn {
+  margin-right: 5px;
+  text-align: center;
+  width: 125px;
+  height: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 14.3619px 11.0476px 13.2571px;
+  gap: 14.36px;
+  background: #ff0000;
+  border-radius: 6.62857px;
+  border: none;
+  cursor: pointer;
+}
+
+.back-btn {
+  text-align: center;
+  width: 125px;
+  height: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 14.3619px 11.0476px 13.2571px;
+  gap: 14.36px;
+  background: #ffffff;
+  border-radius: 6.62857px;
+  border: lightgray 2px solid;
+  cursor: pointer;
+}
