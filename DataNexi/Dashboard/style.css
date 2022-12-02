@@ -58,14 +58,36 @@ body {
 
 /* JOHN DOE DIV */
 .john-doe-div {
-  margin-top: 15px;
+  margin-top: -5px;
   margin-left: 400px;
 }
-
-/* ACCOUNT PROFILE */
-.account-profile {
-  width: 120px;
-  cursor: pointer;
+.list-item {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  width: 150px;
+  height: 38px;
+  list-style: none;
+  padding-top: 5px;
+}
+.avatar-img {
+  margin-left: -35px;
+}
+.john-doe-text {
+  margin-top: 2px;
+  margin-left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1c1c1c;
+}
+.path-stroke {
+  margin-left: 25px;
+  margin-top: 2px;
 }
 
 /* DISPLAY TEXT */
@@ -359,4 +381,3 @@ textarea[name="text"]::placeholder {
   flex-grow: 0;
   cursor: pointer;
 }
-
