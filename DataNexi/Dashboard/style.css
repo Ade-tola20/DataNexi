@@ -147,6 +147,8 @@ body {
 
 /* ************************ */
 
+/* NEW PROJECT CROSS SECTIONAL HTML'S STYLE */
+
 /* BLUR DIV */
 .blur-div {
   display: flex;
@@ -255,6 +257,7 @@ input[type="text"]::placeholder {
   border: 1.10476px solid #979797;
   border-radius: 5.52381px;
   box-sizing: border-box;
+  resize: none;
 }
 
 /* TEXT AREA PLACEHOLDER STYLE */
@@ -339,7 +342,7 @@ textarea[name="text"]::placeholder {
   margin-left: 20px;
   margin-bottom: 15px;
 }
-.select-unselect {
+.select {
   display: flex;
   flex-direction: row;
   width: 13px;
@@ -381,3 +384,22 @@ textarea[name="text"]::placeholder {
   flex-grow: 0;
   cursor: pointer;
 }
+
+/* ************************* */
+
+/* NEW PROJECT LONGITUDINAL HTML'S STYLE */
+
+.long-blue-line {
+  margin-left: -190px;
+}
+
+.unselect {
+  width: 13px;
+  height: 13px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1.10476px solid #dadada;
+  border-radius: 2.20952px;
+  margin-right: 8px;
+}
+
