@@ -765,3 +765,45 @@ select {
   color: #000000;
   white-space: nowrap;
 }
+
+/* **************** */
+
+/* MAP PAGE TABLE */
+.map-page-table {
+  margin-left: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* MAP DIV */
+.map-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.map-map-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* MAP IMAGE DIV */
+.map-img-div {
+  margin-left: 40px;
+}
+.map-img {
+  width: 688px;
+  height: 300px;
+  cursor: pointer;
+}
