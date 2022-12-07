@@ -61,6 +61,7 @@ body {
   font-size: 15px;
   line-height: 20px;
   color: #000000;
+  cursor: pointer;
 }
 
 /* FORM BUILDER DIV */
@@ -87,6 +88,7 @@ body {
   font-size: 15px;
   line-height: 20px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* MANAGE TEAM DIV */
@@ -114,6 +116,7 @@ body {
   font-size: 15px;
   line-height: 20px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* PROJECT SETTINGS DIV */
@@ -141,6 +144,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* CREATE PROJECT SECTION */
@@ -188,6 +192,7 @@ body {
   height: 38px;
   list-style: none;
   padding-top: 5px;
+  cursor: pointer;
 }
 .avatar-img {
   margin-left: -35px;
@@ -434,4 +439,329 @@ select {
 .empty-table-row {
   margin-top: 40px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+/* ******************** */
+
+/* FIRST STUDY DIV */
+.first-study-div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.back-img {
+  width: 10px;
+  height: 19px;
+  margin-top: 5px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.first-study {
+  margin-left: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* ENTRIES DIV */
+.entries-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  width: 688px;
+  height: 50px;
+  background: #f5f3fc;
+}
+
+/* TABLE TEXT DIV */
+.table-text-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.table-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+.purple-horizontal {
+  background: #5233ed;
+  border-radius: 20px;
+  width: 64px;
+  height: 10px;
+}
+
+/* MAP,DATA AND GALLERY TEXT */
+.map-text,
+.data-intelligence-text,
+.gallery-text {
+  margin-left: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* DOWNLOAD BUTTON DIV */
+.download-entries-div {
+  margin-left: 60px;
+}
+.download-img {
+  margin-right: 10px;
+}
+.download-btn {
+  margin-top: 7px;
+  width: 145px;
+  height: 34px;
+  background: #5233ed;
+  border-radius: 4.60438px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.8087px;
+  line-height: 14px;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+/* ALL STUDY TEXT */
+.all-study {
+  margin-top: 15px;
+}
+
+/* APPLY BUTTON */
+.apply-btn {
+  margin-left: 10px;
+  margin-right: 290px;
+  border-radius: 4.60438px;
+  border: none;
+  background: #5233ed;
+  width: 80px;
+  height: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.8087px;
+  line-height: 14px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+/* DETAILS DIV */
+.details-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  width: 694px;
+  height: 130px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.19);
+  border-radius: 6px;
+}
+
+/* DETAILS HEAD */
+.details-head {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+}
+.field-agent {
+  white-space: nowrap;
+  margin-left: 43px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}
+.entry-id,
+.last-submission {
+  white-space: nowrap;
+  margin-left: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}
+.entry-name {
+  white-space: nowrap;
+  margin-left: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}
+.name {
+  white-space: nowrap;
+  margin-left: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}
+.number {
+  white-space: nowrap;
+  margin-left: 39px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}
+
+/* AGENTS DIV */
+.agents-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+/* TICK BOX */
+.tick-box {
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  border: 0.888889px solid #000000;
+  border-radius: 2.66667px;
+  cursor: pointer;
+}
+
+/* MARK TIM */
+.mark-tim-img {
+  margin-left: 10px;
+  width: 28px;
+  height: 20px;
+}
+.mark-tim-text {
+  white-space: nowrap;
+  margin-left: 1px;
+  margin-top: -1px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* NUMBER ID */
+.number-id {
+  margin-top: -2px;
+  margin-left: 18px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  white-space: nowrap;
+}
+
+/* SUBMISSION DATE */
+.submission-date {
+  margin-top: -2px;
+  margin-left: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  white-space: nowrap;
+}
+
+/* IPAJA BRANCH */
+.ipaja-branch {
+  margin-top: -2px;
+  margin-left: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  white-space: nowrap;
+}
+
+/* MARY GOLD'S NAME */
+.mary-gold-name {
+  margin-top: -2px;
+  margin-left: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  white-space: nowrap;
+}
+
+/* MARY GOLD'S NUMBER */
+.mary-gold-number {
+  margin-top: -2px;
+  margin-left: 65px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  white-space: nowrap;
+}
+
+/* ANGELA MARK'S NAME */
+.angela-mark-name {
+  margin-top: -2px;
+  margin-left: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  white-space: nowrap;
+}
+
+/* ANGELA MARK'S NUMBER */
+.angela-mark-number {
+  margin-top: -2px;
+  margin-left: 45px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  white-space: nowrap;
 }
