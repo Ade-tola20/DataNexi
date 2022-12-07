@@ -807,3 +807,48 @@ select {
   height: 300px;
   cursor: pointer;
 }
+
+/* **************** */
+
+/* DATA DIV */
+.data-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.data-intelligence-text {
+  margin-left: -15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* COMING-SOON DIV */
+.coming-soon-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-left: 300px;
+}
+.coming-soon-img {
+  width: 130px;
+  height: 130px;
+}
+.coming-soon-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.5802px;
+  line-height: 66px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin-left: 5px;
+  margin-top: -10px;
+}
