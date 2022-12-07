@@ -2,6 +2,11 @@ body {
   background-color: whitesmoke;
 }
 
+
+/* ************** */
+
+/* DATA ENTRY HTML */
+
 /* DASHBOARD */
 #dashboard {
   display: flex;
@@ -443,6 +448,8 @@ select {
 
 /* ******************** */
 
+/* FIRST STUDY HTML */
+
 /* FIRST STUDY DIV */
 .first-study-div {
   display: flex;
@@ -768,6 +775,8 @@ select {
 
 /* **************** */
 
+/* MAP HTML */
+
 /* MAP PAGE TABLE */
 .map-page-table {
   margin-left: 30px;
@@ -810,13 +819,15 @@ select {
 
 /* **************** */
 
+/* DATA HTML */
+
 /* DATA DIV */
 .data-div {
   display: flex;
   flex-direction: column;
   margin-left: 50px;
 }
-.data-intelligence-text {
+.data-text {
   margin-left: -15px;
   font-family: "Inter";
   font-style: normal;
@@ -851,4 +862,80 @@ select {
   color: #000000;
   margin-left: 5px;
   margin-top: -10px;
+}
+
+/* ******************* */
+
+/* GALLERY HTML */
+
+/* DATA DIV */
+.gallery-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.gallery-div-text {
+  margin-left: -15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* GRID IMAGE */
+.grid-img {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  background: #5233ed;
+  cursor: pointer;
+}
+
+/* LIST IAMGE */
+.list-img {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+/* METER IMAGE DIV */
+.meter-img-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+/* METER ID DIV */
+.meter-id-div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* METER IMAGE */
+.meter-img {
+  width: 120px;
+  height: 120px;
+}
+
+/* ID TEXT */
+.id-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+/* NEXT METER-ID DIV */
+.next-meter-id-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }
