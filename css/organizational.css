@@ -1,0 +1,519 @@
+body {
+  background-color: whitesmoke;
+}
+
+/* SETUP BOX */
+.setup-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  margin-left: 250px;
+  width: 850px;
+  height: 700px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+/* NAV */
+.top {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+/* LOGO */
+.logo {
+  margin-top: 35px;
+  margin-left: 60px;
+  width: 153px;
+  height: 20px;
+}
+
+/* SETUP TEXT */
+.setup-text {
+  margin-top: 29px;
+  margin-left: 180px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+/* LINE */
+.horizontal-line {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 120px;
+}
+.colored-line {
+  width: 350px;
+}
+.white-line {
+  width: 500px;
+}
+
+/* FORM BOX */
+.form-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 135px;
+  box-sizing: border-box;
+  width: 579px;
+  height: 458px;
+  background: #ffffff;
+  border: 1px solid #cacfd1;
+}
+
+/* ORGANIZATION FORM */
+.organization-form {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* NAME DIV */
+.name-div,
+.sector {
+  margin-left: 30px;
+}
+.organization-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+.name-field {
+  margin-top: 15px;
+  line-height: 40px;
+  width: 225px;
+  border-radius: 5px;
+  border: 1px solid #cacfd1;
+}
+
+/* ROLE FIV */
+.role-div {
+  margin-left: 15px;
+}
+.role-field {
+  margin-top: 15px;
+  line-height: 40px;
+  width: 230px;
+  border-radius: 5px;
+  border: 1px solid #cacfd1;
+}
+.organization-role {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+/* INPUT PLACEHOLDER STYLE */
+input[type="text"]::placeholder {
+  padding-left: 5px;
+}
+
+/* SECTOR */
+.sector-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+.sector-field {
+  margin-top: 15px;
+  line-height: 40px;
+  width: 485px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #cacfd1;
+}
+
+/* COUNTRY SELECT */
+.country {
+  margin-left: 30px;
+}
+
+/* STATE SELECT */
+.state {
+  margin-left: 10px;
+}
+.country-text,
+.state-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+.country-select,
+.state-select {
+  margin-top: 15px;
+  line-height: 40px;
+  width: 240px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #cacfd1;
+}
+
+/* BUTTON */
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 18px;
+}
+.next-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 14px 11px 13px;
+  gap: 14.36px;
+  width: 501px;
+  height: 48.62px;
+  background: #5233ed;
+  border-radius: 6.62857px;
+  border: none;
+  cursor: pointer;
+}
+/* ********************* */
+
+/* ADD TEAM MEMBERS */
+
+/* MEMBERS BOX */
+.members-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  margin-left: 250px;
+  width: 850px;
+  height: 850px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+/* HORIZONTAL LINE */
+.colored-horizontal-line {
+  width: 700px;
+}
+.grey-horizontal-line {
+  width: 150px;
+}
+
+/* MEMBERS DETAILS BOX */
+/* FORM BOX */
+.members-details-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+  box-sizing: border-box;
+  width: 550px;
+  height: 600px;
+  background: #ffffff;
+  border: 1px solid #cacfd1;
+}
+
+/* MEMBERS FORM */
+.members-form {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* EMAIL-DIV */
+.email-div {
+  margin-left: 15px;
+}
+
+/* EMAIL */
+.members-email {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+.email-field {
+  margin-top: 15px;
+  line-height: 40px;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid #cacfd1;
+}
+
+/* MEMBERS ROLE */
+.members-role-field {
+  margin-top: 15px;
+  line-height: 40px;
+  width: 120px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #cacfd1;
+}
+
+/* SELECT OPTION */
+select {
+  color: #9e9e9e;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #958f8f;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* ADD ANOTHER */
+.add-another {
+  margin-left: 15px;
+  margin-bottom: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #5233ed;
+  text-decoration: none;
+}
+
+/* HORIZONTAL LINE */
+.straight-line {
+  margin-bottom: 20px;
+  width: 510px;
+  height: 1px;
+  background: #d9d9d9;
+}
+
+/* MARGIN BETWEEN EMAIL FORMS */
+.space {
+  margin-top: -10px;
+}
+
+/* BIN IMAGE */
+.bin-img {
+  margin-left: 25px;
+}
+
+/* INVITE BUTTON */
+.invite-btn {
+  margin-left: -50px;
+  width: 450px;
+  height: 48.62px;
+  background: #5233ed;
+  border-radius: 6.62857px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+/* ***************** */
+
+/* ALL DONE BOX */
+.all-done {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  margin-left: 250px;
+  width: 850px;
+  height: 650px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+/* HORIZONTAL LINE */
+.blue-horizontal-line {
+  width: 1000px;
+  height: 4px;
+}
+
+/* ACCOUNT BOX */
+.account-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  box-sizing: border-box;
+  width: 586px;
+  height: 537px;
+  background: #ffffff;
+  border: 1px solid #cacfd1;
+}
+
+/* DONE/CHECK DIV */
+.done-div {
+  margin-top: 55px;
+  margin-left: 250px;
+  margin-bottom: 30px;
+}
+
+/* LOREM IPSUM DIV */
+.lorem-div {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.lorem-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+/* GO TO DASHBOARD BTN */
+.go-to-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 5px;
+}
+.dashboard-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 14.3619px 11.0476px 13.2571px;
+  gap: 14.36px;
+  background: #5233ed;
+  border-radius: 6.62857px;
+  border: none;
+  width: 501px;
+  height: 48.62px;
+}
+/* ****************** */
+
+.blury-img {
+  margin-top: -780px;
+  margin-left: -184px;
+}
+
+.grayish-img {
+  width: 855px;
+  height: 856px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+.blur {
+  display: flex;
+  flex-direction: column;
+  margin-top: -535px;
+  margin-left: 40px;
+  width: 420px;
+  height: 390px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #cacfd1;
+}
+
+
+.delete-div {
+  margin-top: 30px;
+  margin-left: 33px;
+}
+
+.delete-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.confirm-div {
+  margin-left: 33px;
+  margin-bottom: 50px;
+  margin-top: -20px;
+}
+
+.confirm-delete-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.confirm-btn {
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+}
+
+.delete-btn {
+  margin-right: 5px;
+  text-align: center;
+  width: 125px;
+  height: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 14.3619px 11.0476px 13.2571px;
+  gap: 14.36px;
+  background: #ff0000;
+  border-radius: 6.62857px;
+  border: none;
+  cursor: pointer;
+}
+
+.back-btn {
+  text-align: center;
+  width: 125px;
+  height: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 14.3619px 11.0476px 13.2571px;
+  gap: 14.36px;
+  background: #ffffff;
+  border-radius: 6.62857px;
+  border: lightgray 2px solid;
+  cursor: pointer;
+}
