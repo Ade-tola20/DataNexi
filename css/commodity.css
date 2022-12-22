@@ -1,0 +1,1005 @@
+body {
+  background: white;
+  width: 900px;
+  height: 7420px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 230px;
+}
+
+.data-commodity-div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 900px;
+  height: 450px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* TOP NAV */
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* DATA NEXI LOGO */
+.datanexi-logo {
+  width: 130px;
+  height: 17px;
+  margin-left: 20px;
+  justify-content: flex-start;
+}
+
+/* FEATURES DIV */
+.features-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: -20px;
+  margin-left: 170px;
+}
+
+/* PRICING FEATURE */
+.pricing-feature {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #000000;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* CONTACT-US AND ABOUT-US FEATURE */
+.contact-us-feature,
+.about-us-feature {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #000000;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-left: 20px;
+}
+
+/* NAV LOGIN */
+.nav-login {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #000000;
+  margin-top: -5px;
+  margin-left: 150px;
+}
+
+/* REQUEST DEMO BUTTON */
+.request-demo-btn {
+  width: 120px;
+  height: 30px;
+  background: #5233ed;
+  border-radius: 4px;
+  border: none;
+  margin-top: -10px;
+  margin-left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+/* COMMODITY MAP DIV */
+.commodity-map-div {
+  display: flex;
+  flex-direction: row;
+}
+
+/* COMMODITY DIV */
+.commodity-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+/* CONNECT DATA TEXT */
+.connect-data-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 35px;
+  color: #000000;
+}
+
+/* FINANCIAL SERVICE PARAGRAPH */
+.financial-service-paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  color: #000000;
+  margin-top: -20px;
+}
+
+/* REQUEST SURVEY BTN */
+.request-survey-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 48px;
+  background: #5233ed;
+  border-radius: 4px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* MAP DIV */
+.map-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+/* MAP IMG */
+.map-img {
+  width: 400px;
+  height: 350px;
+}
+
+/* AMANDA YOUNG DIV */
+.amanda-young-div {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 50px;
+  background: #ffffff;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin-top: -250px;
+  margin-left: -70px;
+}
+
+/* IMAGES */
+.amanda-young-img,
+.grace-puttin-img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/* DATAs */
+.amanda-young-data,
+.grace-puttin-data {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+/* TEXTs */
+.amanda-young-text,
+.grace-puttin-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  color: #191a15;
+  margin-top: 3px;
+}
+
+/* TEXTs */
+.accurate-data-text,
+.saves-time-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #a6a6a6;
+  margin-top: -10px;
+}
+
+/* BAR CHART BACKGROUND */
+.bar-chart-bg {
+  width: 40px;
+  height: 40px;
+  background: #5233ed;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.bar-chart-img {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* GRACE PUTTIN DIV */
+.grace-puttin-div {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 50px;
+  background: #ffffff;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: -70px;
+}
+
+/* GRACE DOLLAAR IMAGE */
+.grace-dollar-img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+/* MAKING CHANGE OPERATE DIV */
+.making-change-operate-div {
+  background-color: #5233ed;
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  height: 400px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* MAKING CHANGE DIV */
+.making-change-div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* MAKING CHANGE IMAGE */
+.making-change-img {
+  width: 450px;
+  height: 400px;
+}
+
+/* PLAY DIV */
+.play-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -320px;
+  margin-left: 80px;
+}
+
+/* PLAY IMAGE */
+.play-img {
+  width: 70px;
+  height: 70px;
+}
+
+/* MAKING CHANGE TEXT */
+.making-change-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35.817px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+/* OFFICIAL INTRODUCTION TEXT */
+.official-introduction-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.3982px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -30px;
+}
+
+/* OPERATE DIV */
+.operate-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+/* EASY OPERATE TEXT */
+.easy-operate-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24.7964px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+/* ROWS DIV */
+.rows-div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* CHOOSE BEST MATCH, GET WORK DONE */
+.choose-best-match,
+.get-work-done,
+.give-repeat {
+  display: flex;
+  flex-direction: row;
+}
+
+/* DIVS */
+.best-match-div,
+.work-done-div,
+.give-repeat-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* IMAGES */
+.best-match-img,
+.work-done-img,
+.give-repeat-img {
+  width: 45px;
+  height: 45px;
+}
+
+/* TEXTS */
+.best-match-text,
+.work-done-text,
+.give-repeat-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-top: -2px;
+  margin-left: 8px;
+}
+
+/* LOREM TEXTS */
+.lorem-texts {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-top: -10px;
+  margin-left: 8px;
+}
+
+/* BENEFITS DIV */
+.benefits-div {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 1000px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* BENEFITS HEADER */
+.benefits-header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+}
+
+/* VARIOUS BENEFITS DIV */
+.various-benfits-div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* DIVS */
+.first-row-benefits-div,
+.second-row-benefits-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+/* DIVS */
+.collaboration-div,
+.cloud-div,
+.analytics-div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* IMGS */
+.collaboration-img,
+.cloud-img,
+.analytics-img {
+  width: 250px;
+  height: 250px;
+}
+
+/* TEXTS */
+.collaboration-text,
+.cloud-text,
+.analytics-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #191a15;
+}
+
+/* TEXTS */
+.handle-projects-text,
+.provide-storage-text,
+.useful-info-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #a6a6a6;
+  margin-top: -20px;
+}
+
+/* TRUSTED PARTNERS DIV */
+.trusted-partners-div {
+  background: #5233ed;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 900px;
+  height: 150px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* TRUSTED PARTNERS TEXT */
+.trusted-partners-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* PARTNERS DIV */
+.partners-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* IMAGES */
+.zeppelin-img {
+  width: 100px;
+  height: 20px;
+}
+.oracle-img {
+  width: 100px;
+  height: 17px;
+}
+.morpheus-img {
+  width: 100px;
+  height: 25px;
+  margin-top: -5px;
+}
+.samsung-img {
+  width: 100px;
+  height: 20px;
+}
+.monday-img {
+  width: 100px;
+  height: 22px;
+}
+.segment-img {
+  width: 100px;
+  height: 25px;
+}
+.protonet-img {
+  width: 100px;
+  height: 28px;
+}
+
+/* DATA DIV */
+.data-div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 900px;
+  height: 1000px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* DATA PROCESS TEXT */
+.data-process-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  text-align: center;
+  color: #191a15;
+}
+
+/* CLIENT DIV */
+.client-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+/* CLIENT EXPERIENCE DIV */
+.client-experience-div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* CLIENT EXPERIENCE TEXT */
+.client-experience-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  color: #191a15;
+}
+
+/* VALUABLE COMPANIES TEXT */
+.valuable-companies-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+
+/* DATANEXI IMAGE DIV */
+.datanexi-img-div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* FILL ENTRIES IMG */
+.fill-entries-img {
+  width: 200px;
+  height: 400px;
+  margin-left: 250px;
+  filter: drop-shadow(0px 0px 21.3333px rgba(0, 0, 0, 0.1));
+}
+
+/* HOMEPAGE IMAGE */
+.home-page-img {
+  width: 200px;
+  height: 400px;
+  margin-left: 103px;
+  margin-top: -370px;
+  filter: drop-shadow(0px 0px 21.3333px rgba(0, 0, 0, 0.1));
+}
+
+/* OPTIONS DIV */
+.options-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+/* ACCESSABLE DATA ENTRY IMAGE */
+.accessable-dataentry-img {
+  width: 400px;
+  height: 300px;
+  filter: drop-shadow(0px 0px 21.3333px rgba(0, 0, 0, 0.1));
+  margin-left: 105px;
+}
+
+/* ACCESSABLE DATA ENTRY STUDY IMAGE */
+.accessable-dataentry-study-img {
+  width: 400px;
+  height: 300px;
+  filter: drop-shadow(0px 0px 21.3333px rgba(0, 0, 0, 0.1));
+  margin-top: -225px;
+}
+
+/* EASY ACCESSABLE DIV */
+.engagement-options-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+/* ENGAGEMENT OPTIONS TEXT */
+.engagement-options-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #191a15;
+}
+
+/* PLAN COLLABORATE TEXT */
+.strategic-initiatives-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+
+/* DATA NEXI FORM DIV */
+.datanexi-form-div {
+  background-color: #5233ed;
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  height: 500px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* ABOUT DATA NEXI DIV */
+.about-datanexi-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+/* ABOUT DATA NEXI TEXT */
+.about-datanexi-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+/* GOVERNMENT DEVELOPMENT TEXT */
+.government-development-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+/* CREATING DATA NEXI */
+.creating-datanexi {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+/* ELLIPSE IMAGE DIV */
+.ellipse-image-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+/* IMAGES */
+.first-img,
+.second-img,
+.third-img {
+  margin-right: 20px;
+}
+
+/* FORM BOX */
+.form-box {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 400px;
+  height: 400px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+/* LOGO FORM */
+.logo-form {
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+/* EMAIL LABEL */
+.email-label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+/* EMAIL INPUT */
+.email-input {
+  width: 300px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #a6a6a6;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+/* INPUT PLACEHOLDER */
+input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #a6a6a6;
+  padding-left: 20px;
+}
+
+/* MESSAGE INPUT */
+.message-input {
+  width: 300px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #a6a6a6;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+/* FORM REQUEST DEMO BTN */
+.form-request-demo-btn {
+  width: 310px;
+  height: 60px;
+  background: #5233ed;
+  border-radius: 10px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+/* SIGN UP DIV */
+.sign-up-div {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  height: 200px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* GET APP DIV */
+.get-app-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+/* DATA NEXI GET APP IMG */
+.datanexi-getapp-img {
+  width: 150px;
+  height: 25px;
+  margin-top: 40px;
+}
+
+/* START PLAN TEXT */
+.start-plan-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 15px;
+}
+
+/* DOWNLOAD APP DIV */
+.download-app-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* DOWNLOAD BOX */
+.download-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 140px;
+  height: 50px;
+  background: #000000;
+  border-radius: 8.61592px;
+}
+
+/* LOGOs */
+.android-logo,
+.apple-logo {
+  width: 22px;
+  height: 22px;
+  margin-left: 10px;
+}
+
+/* DIVS */
+.google-play-div,
+.app-store-div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* GET APP TEXT */
+.get-app-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.3391px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-left: 7px;
+  margin-top: 20px;
+}
+
+/* TEXTS */
+.google-play-text,
+.app-store-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 7px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-top: -15px;
+  margin-left: 7px;
+}
+
+/* STAY IN TOUCH DIV */
+.stay-in-touch-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+/* STAY IN TOUCH LABEL */
+.stay-in-touch-label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 39px;
+  color: #000000;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+/* NEWSLATTER BTN */
+.newslatter-btn {
+  width: 310px;
+  height: 60px;
+  background: #5233ed;
+  border-radius: 10px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 30px;
+  margin-top: -20px;
+  cursor: pointer;
+}
+
+/* COPYRIGHT DIV */
+.copyrights-div {
+  background-color: #5233ed;
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  height: 30px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* COPYRIGHT TEXT */
+.copyright-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+/* TERMS TEXT */
+.terms-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-left: 350px;
+  margin-top: 5px;
+}
+
+/* COPYRIGHT POLICY TEXT */
+.copyright-policy-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-left: 50px;
+  margin-top: 5px;
+}
