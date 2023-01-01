@@ -1,0 +1,622 @@
+body {
+  background-color: white;
+}
+
+/* TEAM MANAGEMENT HTML */
+
+/* DASHBOARD */
+#dashboard {
+  display: flex;
+  flex-direction: row;
+  margin-top: -10px;
+  width: 1300px;
+  height: 500px;
+}
+
+/* LOGO SECTION */
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #5233ed;
+  width: 200px;
+  height: 630px;
+  margin-left: -8px;
+  margin-top: -10px;
+}
+
+/* DATA-NEXI LOGO */
+.data-nexi-logo {
+  width: 120px;
+  margin-top: 35px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+/* SIDE BAR DIV */
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+/* DATA ENTRY DIV */
+.data-entry-div {
+  display: flex;
+  flex-direction: row;
+  width: 125px;
+  height: 30px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+.stroke-img {
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 20px;
+  height: 18px;
+}
+.data-entry-text {
+  margin-top: 5px;
+  margin-left: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* FORM BUILDER DIV */
+.form-builder-div {
+  display: flex;
+  flex-direction: row;
+  width: 125px;
+  height: 30px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+.union-join-img {
+  margin-top: 5px;
+  margin-left: 7px;
+  width: 18px;
+  height: 18px;
+}
+.form-builder-text {
+  margin-top: 5px;
+  margin-left: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* MANAGE TEAM DIV */
+.manage-team-div {
+  display: flex;
+  flex-direction: row;
+  width: 125px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+.people-img {
+  margin-top: 5px;
+  margin-left: 3px;
+  width: 18px;
+  height: 18px;
+}
+.manage-team-text {
+  margin-top: 5px;
+  margin-left: 3px;
+  white-space: nowrap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* PROJECT SETTINGS DIV */
+.project-settings-div {
+  display: flex;
+  flex-direction: row;
+  width: 125px;
+  height: 30px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+.bolt-img {
+  margin-top: 5px;
+  margin-left: 3px;
+  width: 18px;
+  height: 18px;
+}
+.project-settings-text {
+  margin-top: 5px;
+  margin-left: 2px;
+  white-space: nowrap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* CREATE PROJECT SECTION */
+.create-project-section {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 1300px;
+  height: 630px;
+}
+
+/* TOP DIV */
+.top {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+/* PHCN DIV */
+.phcn-div {
+  margin-left: 35px;
+}
+.phcn-nigeria {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
+
+/* JOHN DOE DIV */
+.john-doe-div {
+  margin-top: -5px;
+  margin-left: 800px;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  width: 150px;
+  height: 38px;
+  list-style: none;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.avatar-img {
+  margin-left: -35px;
+}
+.john-doe-text {
+  margin-top: 2px;
+  margin-left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1c1c1c;
+}
+.path-stroke {
+  margin-left: 25px;
+  margin-top: 2px;
+}
+
+/* MANAGE TEAM */
+.manage-team {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  background: #f5f3fc;
+  width: 1000px;
+  height: 30px;
+}
+
+/* PEOPLE FILL IMAGE */
+.people-fill-img {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+/* MANAGE TEAM TEXT */
+.manage-team-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* ADD TEAM MEMBER DIV */
+.add-team-member-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+/* ADD TEAM MEMBER TEXT */
+.add-team-member-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* LOREM TEXT */
+.lorem-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  margin-top: -10px;
+}
+
+/* FORM DIV */
+.form-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+/* SEARCH */
+.search {
+  width: 300px;
+  height: 38px;
+  border: 1px solid #979797;
+  border-radius: 6.63px;
+  margin-right: 5px;
+}
+
+input::placeholder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: 100;
+  padding-left: 10px;
+}
+
+/* SELECT FIELD */
+.select-field {
+  width: 120px;
+  height: 42px;
+  border: 1px solid rgba(0, 0, 0, 0.19);
+  border-radius: 6px;
+  margin-right: 5px;
+}
+
+/* SELECT OPTION */
+select {
+  color: #9e9e9e;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #958f8f;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* ADD MEMBER BUTTON */
+.add-member-btn {
+  width: 170px;
+  height: 42px;
+  background: #5233ed;
+  border-radius: 6.62857px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+/* JANE DOE DIV */
+.jane-doe-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: -12px;
+  margin-left: 45px;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 50px;
+  background: #f7f7f7;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* JANE DOE IMAGE */
+.jane-doe-img {
+  width: 35px;
+  height: 35px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+/* JANE DOE DETAILS */
+.jane-doe-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+}
+
+/* NAME */
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.8063px;
+  line-height: 26px;
+  color: #1c1c1c;
+}
+
+/* MAIL */
+.mail {
+  margin-top: -20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8063px;
+  line-height: 26px;
+  color: #1c1c1c;
+}
+
+/* JOHN ADMIN DIV */
+.john-admin-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+/* JANE DOE REPLICA */
+.jane-doe-replica {
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+}
+
+/* FIELD AGENT REPLICA DIV */
+.field-agent-replica-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+/* TRASH IMAGE */
+.trash-img {
+  width: 14px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* *********** */
+
+/* FIELD AGENT HTML */
+
+/* JANE ADMIN DIV */
+.jane-admin-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+/* JANE DOE REPLICA */
+.jane-replica {
+  display: flex;
+  flex-direction: row;
+  margin-right: 105px;
+}
+
+/* SELECTION */
+.selection {
+  display: flex;
+  flex-direction: column;
+}
+
+/* FIELD SELECTION DIV */
+.field-selection-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: -5px;
+  width: 120px;
+  height: 120px;
+  background: #ffffff;
+  -webkit-box-shadow: -4px 10px 22px -10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: -4px 10px 22px -10px rgba(0, 0, 0, 0.6);
+  box-shadow: -4px 10px 22px -10px rgba(0, 0, 0, 0.6);
+  border-radius: 6px;
+}
+
+/* ADMIN-TEXT, ANALYST-TEXT */
+.admin-text, .analyst-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* FIELD AGENT IN SELECTION */
+.field-agent-in-selection {
+  margin-top: -5px;
+  height: 35px;
+  background: #5233ed;
+}
+
+/* FIELD SELECTION TEXT */
+.field-selection-text {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+/* ************* */
+
+/* DELETE HTML */
+
+/* BACKGROUND BLURY IMAGE */
+
+/* DATA-NEXI LOGO */
+.delete-data-nexi-logo {
+  width: 120px;
+  margin-top: 35px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+/* SIDE BAR DIV */
+.delete-side-bar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.blury-img {
+  margin-top: -498px;
+  margin-left: -175px;
+}
+
+/* GRAYISH IMAGE */
+.grayish-img {
+  width: 1370px;
+  height: 620px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* BLUR */
+.blur {
+  display: flex;
+  flex-direction: column;
+  margin-top: -435px;
+  margin-left: 130px;
+  width: 420px;
+  height: 300px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #cacfd1;
+}
+
+/* DELETE DIV */
+.delete-div {
+  margin-left: 33px;
+}
+
+/* DELETE TEXT */
+.delete-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+/* CONFIRM DIV */
+.confirm-div {
+  margin-left: 33px;
+  margin-bottom: 50px;
+  margin-top: -20px;
+}
+
+/* CONFIRM DELETE TEXT */
+.confirm-delete-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+/* CONFIRM BUTTON */
+.confirm-btn {
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+  margin-right: 5px;
+  text-align: center;
+  width: 125px;
+  height: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 14.3619px 11.0476px 13.2571px;
+  gap: 14.36px;
+  background: #ff0000;
+  border-radius: 6.62857px;
+  border: none;
+  cursor: pointer;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  text-align: center;
+  width: 125px;
+  height: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 14.3619px 11.0476px 13.2571px;
+  gap: 14.36px;
+  background: #ffffff;
+  border-radius: 6.62857px;
+  border: lightgray 2px solid;
+  cursor: pointer;
+}
